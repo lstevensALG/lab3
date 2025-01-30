@@ -1,0 +1,46 @@
+.navBar {
+    display: flex;
+    flex-direction: horizontal;
+    background-color: darkolivegreen;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5vh;
+}
+.navItem {
+    text-align: center;
+    width: 33%;
+}
+.gC {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 5vh 25vh 100vh;
+    gap: 1vh;
+}
+.gI {
+    background-color: darkred;
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
+.bottomLeft {
+    grid-column: 1;
+    grid-row: 2 / 4;
+}
+.bottomRight {
+    grid-column: 2 / 4;
+    grid-row: 3;
+}
+.picture {
+    width: 100%;
+    height: 100%;
+}
+.navBottom {
+    display: flex;
+    flex-direction: horizontal;
+    background-color: darkolivegreen;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+}
