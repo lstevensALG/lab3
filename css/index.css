@@ -21,7 +21,7 @@
     background-color: darkred;
     color: black;
     font-size: larger;
-    text-align: center;
+    text-align: justify;
 }
 .bottomLeft {
     grid-column: 1;
